@@ -2,53 +2,33 @@ package com.example.examenparcial2.data
 
 val questionList = listOf(
     Question(
-        question = "¿Qué color obtienes al mezclar azul y amarillo?",
-        options = listOf("Verde", "Naranja", "Morado", "Rosa"),
-        correctAnswerIndex = 0
-    ),
-    Question(
-        question = "¿Cuántas patas tiene una araña?",
-        options = listOf("6", "8", "10", "12"),
+        question = "¿De qué color es el cielo en un día despejado?",
+        options = listOf("Verde", "Azul", "Rojo", "Amarillo"),
         correctAnswerIndex = 1
     ),
     Question(
-        question = "¿Cuál es el nombre del personaje principal en 'Harry Potter'?",
-        options = listOf("Harry Styles", "Harry Potter", "Ron Weasley", "Hermione Granger"),
+        question = "¿Cuánto es 2 + 2?",
+        options = listOf("3", "4", "5", "6"),
         correctAnswerIndex = 1
     ),
     Question(
-        question = "¿Qué gas respiramos para vivir?",
-        options = listOf("Dióxido de carbono", "Hidrógeno", "Oxígeno", "Nitrógeno puro"),
+        question = "¿Qué animal dice 'guau'?",
+        options = listOf("Gato", "Perro", "Vaca", "Pato"),
+        correctAnswerIndex = 1
+    ),
+    Question(
+        question = "¿Cuántas ruedas tiene una bicicleta?",
+        options = listOf("1", "2", "3", "4"),
+        correctAnswerIndex = 1
+    ),
+    Question(
+        question = "¿Qué fruta es amarilla por fuera y blanca por dentro?",
+        options = listOf("Manzana", "Plátano", "Naranja", "Sandía"),
+        correctAnswerIndex = 1
+    ),
+    Question(
+        question = "¿Qué animal maúlla?",
+        options = listOf("Perro", "Pájaro", "Gato", "Caballo"),
         correctAnswerIndex = 2
-    ),
-    Question(
-        question = "¿Cuántos días tiene febrero en un año bisiesto?",
-        options = listOf("28", "29", "30", "31"),
-        correctAnswerIndex = 1
-    ),
-    Question(
-        question = "¿Qué fruta tiene las semillas por fuera?",
-        options = listOf("Manzana", "Fresa", "Plátano", "Sandía"),
-        correctAnswerIndex = 1
-    ),
-    Question(
-        question = "¿Qué instrumento toca un baterista?",
-        options = listOf("Batería", "Violín", "Saxofón", "Clarinete"),
-        correctAnswerIndex = 0
-    ),
-    Question(
-        question = "¿Qué planeta es conocido como el planeta rojo?",
-        options = listOf("Venus", "Júpiter", "Marte", "Mercurio"),
-        correctAnswerIndex = 2
-    ),
-    Question(
-        question = "¿Cuántos anillos tiene el logo de las Olimpiadas?",
-        options = listOf("4", "5", "6", "7"),
-        correctAnswerIndex = 1
-    ),
-    Question(
-        question = "¿Qué animal dice 'muuu'?",
-        options = listOf("Gallo", "Vaca", "Perro", "Gato"),
-        correctAnswerIndex = 1
     )
 )
